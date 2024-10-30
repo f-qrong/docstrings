@@ -1,0 +1,13 @@
+def square(number):
+    """
+    calculate the square of a number
+
+    :param number: the number to be squared
+
+    :return: the square of the input number
+    """
+    return number * number
+
+
+user_input_number = float(input("Please enter a number: "))
+print(square(user_input_number))
