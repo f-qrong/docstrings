@@ -1,0 +1,13 @@
+def greet_user(name):
+    """
+    Greet the user with their name.
+
+    :param name: the name of the user to greet.
+
+    :return: None
+    """
+    print("Hello," + name + "!")
+
+
+user_name_input = input("Please enter your name: ")
+greet_user(user_name_input)
